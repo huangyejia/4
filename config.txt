@@ -1,0 +1,18 @@
+{
+# 微信公众号配置
+"app_id": "wx201f6b760f37ce40", # 公众号appId
+"app_secret": "ff27563da0900d787251d64d00f914a2", # 公众号appSecret
+"template_id": "CpMH1wvnls-h-HFt2SFNSiVSTUKqI5kFS4X7OG9k5cY", # 模板消息id
+"user": ["ooKY56-keaQEDKV2zFbzfvdlxP4M"],  # 接收消息的微信号，多个微信用英文逗号间隔，例如["wx1", "wx2"]
+
+# 信息配置
+# 和风天气apikey
+"weather_key": "e86b0fe7218a41b2a550fc275d2aa35f",
+# 天行数据apikey
+"tian_api": "3723eb026619038b8bfbe78fde5d83ce",
+"province": "广西省", # 所在省份
+"city": "南宁市", # 所在城市
+"birthday1": {"name": "宝宝", "birthday": "r2001-05-14"},  # 生日1，姓名和生日，生日若为农历在最前面加上r即可
+"birthday2": {"name": "小佳", "birthday": "2003-02-15"}, # # 生日2，同上
+"love_date": "2021-12-11"  # 在一起的日期，暂不支持农历
+}
